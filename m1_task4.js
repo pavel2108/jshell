@@ -1,7 +1,7 @@
 const credits = 23580;
 const pricePerDroid = 3000;
-let totalPrice;
-let message;
+let totalPrice = null;
+let message = null;
 
 const countDroid = prompt('Сколько дроидов Вы желаете приобрести?')
 console.log(countDroid);

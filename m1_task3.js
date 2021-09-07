@@ -1,5 +1,5 @@
 const ADMIN_PASSWORD = '123';
-let message;
+let message = null;
 
 const pass = prompt('Введите пароль')
 console.log(pass);

@@ -1,4 +1,4 @@
-let price;
+let price = null;
 
 const country = prompt('Укажите Вашу страну')
 console.log(country);
