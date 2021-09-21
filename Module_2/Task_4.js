@@ -1,6 +1,6 @@
 const formatString = function(string) {
     
-    if (string.length < 40){    
+    if (string.length <= 40){    
     return string;
 }
 
@@ -28,5 +28,4 @@ return arr.join('');
       'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
     ),
   );
-  // вернется форматированная строка
-  
+  // вернется форматированная строка  

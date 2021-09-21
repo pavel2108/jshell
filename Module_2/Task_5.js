@@ -6,7 +6,7 @@ const checkForSpam = function(message) {
     for (const word of arr) {
 const searchWord = ['spam', 'sale'];
 
-if (searchWord.includes(word.toLowerCase())) {
+if (word.toLowerCase().includes(searchWord[0]) || word.includes(searchWord[1])) {
     result = true;
     break;
   }
